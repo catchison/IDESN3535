@@ -175,7 +175,7 @@ If you have any questions, please send Saul a message through Slack (http://baiz
 
         <p id="fruitbasket02"></p>
 
-        <h3 id="qv">Quicker View</h3>
+        <h3 id="qv">Quick View</h3>
         <p>
             For those of us who haven't yet memorized the color equivalents for HEX or RGB values, Brackets makes
             it quick and easy to see exactly what color is being used. In either CSS or HTML, simply hover over any
@@ -205,7 +205,11 @@ If you have any questions, please send Saul a message through Slack (http://baiz
         <!--
             LET US KNOW WHAT YOU THINK
         -->
-        <h2 id='heading'>"Get involved" + myDate</h2>
+        <!--<h2 id='heading'>"Get involved" <script type="text/javascript">-->
+            <!--var myDate = "today" ;</h2>-->
+
+            <!--</script>-->
+
         <p>
             Brackets is an open-source project. Web developers from around the world are contributing to build 
             a better code editor. Many more are building extensions that expand the capabilities of Brackets.
@@ -222,15 +226,13 @@ If you have any questions, please send Saul a message through Slack (http://baiz
                     "non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." ) ;
 
 
-            var myDate = "today" ;
-
             var fruit = ["cherry", "strawberry", "orange", "apple", "grapes", "pear", "pineapple"] ;
 
             var browserWidth = window.innerWidth;
 
             var browserHeight = window.innerHeight;
 
-                document.write ( heading + myDate );
+//                document.write ( heading + myDate );
 
                 document.getElementById("fruitbasket01").innerHTML = fruit[1];
 
@@ -239,6 +241,9 @@ If you have any questions, please send Saul a message through Slack (http://baiz
             var stats = "" ;
 
                 document.body.style.backgroundColor = "yellow" ;
+
+                var qv_object = document.getElementById("qv") ; //store object
+                qv_object.textContent = "slower viewer" ; // assign new value
 
         </script>
 

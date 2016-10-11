@@ -1,9 +1,0 @@
- This is a sentence
-
-
-This is another sentence
-
-When to commit?
-
-
-I am your alternative sentence
