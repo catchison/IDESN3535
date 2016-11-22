@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+    <title>JavaScript Form with Validation</title>
+    <link rel="stylesheet" href="regform.css" type="text/css" />
+    <script src="formcheck.js"></script>
+
+</head>
+
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form name="registration" onSubmit="return formCheck();">
+        <ul>
+            <li><label id="custName">Name:</label></li>
+            <li><input type="text" name="customerName" min="2" /></li>
+
+            <li><label id="custemail">Email:</label></li>
+            <li><input type="text" name="email" min="5" /></li>
+
+            <li><label id="passid">Password:</label></li>
+            <li><input type="password" name="passid" min="10" /></li>
+
+            <li><label id="passidcheck">Check:</label></li>
+            <li><input type="password" name="passidcheck" min="10" /></li>
+
+            <li><label>Color:</label></li>
+            <li><input type="radio" name="red" value="red" /><span>Red </span></li>
+            <li><input type="radio" name="blue" value="blue" /><span>Blue </span></li>
+            <li><input type="radio" name="green" value="green" /><span>Green </span></li>
+            <li><input type="radio" name="yellow" value="yellow" /><span>Yellow </span></li>
+
+            <li><input type="submit" name="submit" value="Submit" /></li>
+        </ul>
+    </form>
+
+</body>
+
+</html>  

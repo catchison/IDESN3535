@@ -2,124 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9c00888-45b1-4042-8290-c1c3199cb691" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/css/foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/44_1eric_carle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/5101c64b142bf4c03c33b074a3be676d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/614eed336ce584e310b05563c6e7405e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/ABC.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Andrea Cuius.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Andrea Cuius.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/BLUE HORSE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Eric Carle Logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Eric Carle funny.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Eric Carle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Fat Catippilar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/HungryCaterpillar.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Instagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Kids bubbles.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Marmont-Hill-Baby-Bear-Character-Mama-Bear-by-Eric-Carle-Graphic-Art-on-Canvas-MH-ECARL-05-C.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/MicahElizabethScott.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Peacock.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Pinkney.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Pinterest-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Purple Cat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Resonate2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Rooster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/Twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/activities.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/andromeda-orbit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/block1.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/block1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/block2.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/block2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/blur.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/caterpillar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/catterpillar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/elephant_1024_768.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/enter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/ericraynaud copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/ericraynaud.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/find.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/find.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/finding-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/finding-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/gluestamping+sand_Lead.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/hungrycatterpillar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/images.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/kanban.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/kidsbubbles2.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/launch-orbit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/lion.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/lion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/locate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/museum.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/museum2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/museum3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/noodles.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/oldafrican.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/pancake.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/ramen.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/ramen1900.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/resonate1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/resonate3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/resonate4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/resonate5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/resonate6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/resonate7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/resonate8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/rooster-Animals.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/satelite-orbit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/search-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/sketchbook.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/sketchbook.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/space.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/swimmhy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/swimmy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/tako.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/tiger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/tilah.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/turtle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/vimeopng.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/wallpaper2b.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/wallpaper2b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/wellread.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/img/y_koshikawa_resonatetheme.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.abide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.clearing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.equalizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.interchange.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.joyride.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.magellan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.offcanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.orbit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.reveal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/foundation/foundation.topbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/vendor/fastclick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/vendor/jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/vendor/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/vendor/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/js/vendor/placeholder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/sub.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/01 html and css refresher/yume ramen blog.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/This is a snetence2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/idesn3535-master/file.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04 javascript review/043 assignment-4.html" afterPath="$PROJECT_DIR$/04 javascript review/043 assignment-4.html" />
     </list>
     <ignored path="IDESN3535.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -149,6 +32,16 @@
       <list>
         <option value="$PROJECT_DIR$/js-demo.html" />
         <option value="$PROJECT_DIR$/04 javascript review/043 assignment-4.html" />
+        <option value="$USER_HOME$/Downloads/053 demo.html" />
+        <option value="$PROJECT_DIR$/01/index.html" />
+        <option value="$PROJECT_DIR$/01/blogstyles.css" />
+        <option value="$PROJECT_DIR$/05 registration form/regform.css" />
+        <option value="$PROJECT_DIR$/05 registration form/formcheck.js" />
+        <option value="$PROJECT_DIR$/05 registration form/registration.html" />
+        <option value="$PROJECT_DIR$/05 registration form/form.html" />
+        <option value="$USER_HOME$/Downloads/0601-demo-001.html" />
+        <option value="$USER_HOME$/Desktop/0601-demo.html" />
+        <option value="$PROJECT_DIR$/0601-demo-001.html" />
       </list>
     </option>
   </component>
@@ -160,10 +53,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="150" />
-    <option name="y" value="36" />
-    <option name="width" value="1448" />
-    <option name="height" value="1008" />
+    <option name="x" value="74" />
+    <option name="y" value="51" />
+    <option name="width" value="1259" />
+    <option name="height" value="922" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -266,15 +159,27 @@
       <workItem from="1476205765301" duration="37000" />
       <workItem from="1476205892109" duration="3309000" />
       <workItem from="1476212154126" duration="44000" />
-      <workItem from="1476213587097" duration="353000" />
+      <workItem from="1476213587097" duration="5374000" />
+      <workItem from="1476749904059" duration="603000" />
+      <workItem from="1476800333888" duration="65000" />
+      <workItem from="1476800615390" duration="1201000" />
+      <workItem from="1476802686290" duration="102000" />
+      <workItem from="1476803220886" duration="3625000" />
+      <workItem from="1476809131627" duration="12462000" />
+      <workItem from="1476823239891" duration="521000" />
+      <workItem from="1476823778069" duration="18000" />
+      <workItem from="1476823874571" duration="3000" />
+      <workItem from="1476823895326" duration="218000" />
+      <workItem from="1476824132476" duration="116000" />
+      <workItem from="1476824435857" duration="78000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12885000" />
+    <option name="totallyTimeSpent" value="36918000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="150" y="36" width="1448" height="1008" extended-state="0" />
+    <frame x="74" y="51" width="1259" height="922" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -314,6 +219,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/05 registration form/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05 registration form/regform.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05 registration form/formcheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01/blogstyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04 javascript review/043 assignment-4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -323,13 +263,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js-demo.html" />
     <entry file="file://$USER_HOME$/Downloads/043 assignment-4.html" />
-    <entry file="file://$USER_HOME$/Desktop/untitled folder/js-demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/untitled folder/js-demo.html" />
     <entry file="file://$USER_HOME$/Documents/Lesley University/Current Courses/Advanced Web Projects/043 assignment-4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -337,10 +271,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/053 demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="137" column="62" selection-start-line="137" selection-start-column="62" selection-end-line="137" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01/graphics/blog01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01/blogstyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04 javascript review/043 assignment-4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
+        <state relative-caret-position="1275">
           <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="61" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 html and css refresher/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05 registration form/regform.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05 registration form/formcheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05 registration form/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05 registration form/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/0601-demo-001.html" />
+    <entry file="file://$USER_HOME$/Desktop/0601-demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="216" column="46" selection-start-line="216" selection-start-column="46" selection-end-line="216" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0601-demo-001.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="230" column="58" selection-start-line="230" selection-start-column="58" selection-end-line="230" selection-end-column="58" />
           <folding />
         </state>
       </provider>
