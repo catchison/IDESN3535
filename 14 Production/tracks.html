@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+<script type="text/javascript">
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+</script>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<title>SoundGroove Rush - Tracks</title>
+</head>
+
+<script>
+$(function() {
+    //----- OPEN
+    $('[data-popup-open]').on('click', function(e)  {
+        var targeted_popup_class = jQuery(this).attr('data-popup-open');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
+ 
+        e.preventDefault();
+    });
+ 
+    //----- CLOSE
+    $('[data-popup-close]').on('click', function(e)  {
+        var targeted_popup_class = jQuery(this).attr('data-popup-close');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+ 
+        e.preventDefault();
+    });
+});
+
+function openPopup(elem) {
+	$(elem).next().fadeIn(200);
+	$(elem).next().siblings(".popup").hide();
+}
+
+
+function closePopup() {
+	$('.popup').fadeOut(300);
+}
+
+</script>
+
+<style type="text/css">
+<!--
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+}
+
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img { 
+	border: none;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+.container {
+	width: 480px;
+	background-color: #000;
+	margin: 0 auto;
+}
+
+
+.header {
+	background-color: #000;
+}
+
+.content {
+
+	padding: 10px 0;
+}
+
+.footer {
+	padding: 10px 0;
+	background-color: #000;
+}
+
+
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+th {
+	text-align: center;
+}
+
+#logoposition {
+	position:relative;
+	left: 100px;
+    padding: 20px; 
+    width: 200px;
+    height: 200px; 
+}
+
+#navbuttons {
+	position:relative;
+	left: 100px;
+	border-radius: 25px;
+    border: 2px solid #FFFFFF;
+    padding: 20px; 
+    width: 220px;
+    height: 15px;
+	font-size: 16px;
+}
+
+#navbuttons:hover {
+    border: 2px solid #FF0000;
+}
+
+@keyframes example {
+    0%   {background-color:red;}
+    25%  {background-color:white;}
+    50%  {background-color:red;}
+    75%  {background-color:white;}
+    100% {background-color:red;}
+}
+
+#navbuttons:active {
+    border: 2px solid #FF0000;
+	background-color: #FF0000;
+	font-size: 16px;
+	color: #FF0000;
+	animation-name: example;
+}
+
+.divTable{
+	display: table;
+	width: 400px;
+	position:relative;
+	left: 25px;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #000;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	display: table-cell;
+	padding: 1px;
+	border: 2px solid #000000;	`1
+}
+.divTableHeading {
+	background-color: #000;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #000;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+#divTableCell:hover {
+    border: 2px solid #FF0000;
+}
+
+td:hover {
+  background-color: #ff0000;
+  color: #000000;
+}
+
+img {
+    border: solid 2px transparent;
+}
+img:hover {
+    border-color: red;
+}
+
+</style>
+	  
+</head>
+
+<body>
+
+<div class="container">
+  
+  <div class="header">
+  	<div class="divTable" style="width: 375px;" >
+		<div class="divTableBody">
+			<div class="divTableRow">
+			<div class="divTableCell" align="left"><img src="images/sgrlogo-512x512.png" width="100" height="100"></div>
+			<div class="divTableCell" align="right">
+		<div class="divTable" style="width: 275px;">
+			<div class="divTableBody">
+				<div class="divTableRow" align="top">
+				<div class="divTableCell"><a href="http://hearthis.at/soundgrooverecords/" target="_blank"><img src="images/hearthis-icon.png" width="50" height="50"></a></div>
+				<div class="divTableCell"><a href="http://www.facebook.com/soundgrooverecords/" target="_blank"><img src="images/fb-icon.png" width="50" height="50"></a></div>
+				<div class="divTableCell"><a href="http://twitter.com/soundgroovenyc" target="_blank"><img src="images/twitter-icon.png" width="50" height="50"></a></div>
+				<div class="divTableCell"><a href="http://www.beatport.com/label/soundgroove-records/1736" target="_blank"><img src="images/beatport-icon.png" width="50" height="50"></a></div>
+				<div class="divTableCell"><a href="http://hearthis.at/soundgrooverecords/" target="_blank"><img src="images/googleplus-icon.png" width="50" height="50"></a></div>
+			</div>
+		</div>
+	</div>
+
+</div>
+</div>
+</div>
+</div>
+  
+  
+  
+  </div>
+  <div class="content">
+
+  
+  <div class="divTable" style="width: 400px;">
+	<div class="divTableBody">
+	<div class="divTableRow">
+		<div class="divTableCell"><img src="images/sgr116dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr116dd-info.html','','width=480,height=410')"></div>
+		<div class="divTableCell"><img src="images/sgr115dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr115dd-info.html','','width=480,height=400')"></div>
+		<div class="divTableCell"><img src="images/sgr114dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr114dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr113dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr113dd-info.html','','width=480,height=400')"></div>
+	</div>
+
+	<div class="divTableRow">
+		<div class="divTableCell"><img src="images/sgr112dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr112dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr111dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr111dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr110dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr110dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr109dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr109dd-info.html','','width=480,height=370')"></div>
+	</div>
+
+	<div class="divTableRow">
+		<div class="divTableCell"><img src="images/sgr108dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr108dd-info.html','','width=480,height=400')"></div>
+		<div class="divTableCell"><img src="images/sgr107dd-cdcover.jpg" width="100" height="100" onClick="MM_openBrWindow('sgr107dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr106dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr106dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr105dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr105dd-info.html','','width=480,height=370')"></div>
+	</div>
+
+	<div class="divTableRow">
+		<div class="divTableCell"><img src="images/sgr104dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr104dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr103dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr103dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr101dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr101dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr100dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr100dd-info.html','','width=480,height=370')"></div>
+	</div>
+
+	<div class="divTableRow">
+		<div class="divTableCell"><img src="images/sgr099dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr099dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr098dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr098dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr097dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr097dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr096dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr096dd-info.html','','width=480,height=370')"></div>
+	</div>
+
+	<div class="divTableRow">
+		<div class="divTableCell"><img src="images/sgr095dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr095dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr094dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr094dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr093dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr093dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr092dd-cdcover.jpg" width="100" height="100" onClick="MM_openBrWindow('sgr092dd-info.html','','width=480,height=370')"></div>
+	</div>
+
+	<div class="divTableRow">
+		<div class="divTableCell"><img src="images/sgr091dd-cdcover.jpg" width="100" height="100" onClick="MM_openBrWindow('sgr091dd-info.html','','width=480,height=380')"></div>
+		<div class="divTableCell"><img src="images/sgr098dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr098dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr107dd-cdcover.jpg" width="100" height="100" onClick="MM_openBrWindow('sgr107dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr112dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr112dd-info.html','','width=480,height=370')"></div>
+	</div>
+
+	<div class="divTableRow">
+		<div class="divTableCell"><img src="images/sgr109dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr109dd-info.html','','width=480,height=410')"></div>
+		<div class="divTableCell"><img src="images/sgr116dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr116dd-info.html','','width=480,height=410')"></div>
+		<div class="divTableCell"><img src="images/sgr115dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr115dd-info.html','','width=480,height=370')"></div>
+		<div class="divTableCell"><img src="images/sgr108dd-cdcover.png" width="100" height="100" onClick="MM_openBrWindow('sgr108dd-info.html','','width=480,height=400')"></div>
+	</div>
+	</div>
+
+</div>
+  </div>
+  <div class="footer">
+   <p id="navbuttons" align="center" onclick="window.history.back()"> back</p>
+  </div>
+</div>
+
+</body>
+</html>

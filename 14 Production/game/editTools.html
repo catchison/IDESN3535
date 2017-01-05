@@ -1,0 +1,61 @@
+<div id="editWrapper">
+    <div id="floatForm">
+    	<div class="formRow">
+            Select Musics:<br/>
+            <select id="musiclist" name="musiclist">
+              
+            </select>
+            <div style="clear:both;"></div>
+        </div>
+        <br/>
+        <div class="formRow">
+            Type of Notes:<br/>
+            <select id="typeofnotes" name="typeofnotes">
+              
+            </select>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="formRow">
+            <input id="add" name="add" type="button" value="Add Note">
+        </div>
+        <br/>
+        <div class="formRow">
+            List of Notes:<br/>
+            <select id="listofnotes" name="listofnotes">
+            	
+            </select>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="formRow">
+        	Positions: <input id="notePosition" name="notePosition" class="half" value="">
+            <div class="dotsWrapper"></div>
+            <input id="prev" name="prev" class="half" type="button" value="Prev Note">
+            <input id="next" name="next" class="half" type="button" value="Next Note">
+            <input id="remove" name="remove" type="button" value="Remove Note">
+        </div>
+        <br/>
+        <div class="formRow">
+            Output :<br/>
+            <textarea id="output" name="output" cols="" rows=""></textarea><br/><br/>
+        </div>
+        <div class="formRow">
+            <input id="generate" name="generate" type="button" value="Generate Array">
+        </div>
+    </div>
+    
+    <div id="floatPlayer">
+    	<input id="play" name="play" type="button" value="Play"><input id="pause" name="pause" type="button" value="Pause"><input id="stop" name="stop" type="button" value="Stop"><div class="musicPosition">1000</div>
+        <input id="musicPosition" name="musicPosition" class="half" value="0"><input id="jump" name="jump" type="button" value="Jump To">
+        
+        <div class="editPlayerWrapper">
+            <div class="playerWrapper">
+            	<div class="playerBg"></div>
+                <div class="playerBar"></div>
+                <div class="playerPosition"></div>
+                <div class="playerIndicator"></div>
+                
+                <div class="playerNotes"></div>
+            </div>
+        </div>
+    </div>
+</div>

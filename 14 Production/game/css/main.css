@@ -1,0 +1,293 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html,button,input,select,textarea {
+color:#222;
+}
+html {
+font-size:1em;
+line-height:1.4;
+}
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+background: #b3d4fc;
+text-shadow: none;
+}
+::selection {
+background: #b3d4fc;
+text-shadow: none;
+}
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+display: block;
+height: 1px;
+border: 0;
+border-top: 1px solid #ccc;
+margin: 1em 0;
+padding: 0;
+}
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+audio,canvas,img,video {
+vertical-align:middle;
+}
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+border:0;
+margin:0;
+padding:0;
+}
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+resize:vertical;
+}
+
+/* ==========================================================================
+   Main styles
+   ========================================================================== */
+
+@font-face {
+    font-family: 'buran_ussrregular';
+    src: url('fonts/buran_ussr-webfont.eot');
+    src: url('fonts/buran_ussr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/buran_ussr-webfont.woff2') format('woff2'),
+         url('fonts/buran_ussr-webfont.woff') format('woff'),
+         url('fonts/buran_ussr-webfont.ttf') format('truetype'),
+         url('fonts/buran_ussr-webfont.svg#buran_ussrregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-user-select: none;-webkit-touch-callout:none; background:#000;}
+
+/*-- Percent Loader -- */
+#mainLoader{position:absolute;z-index:5; display:none; font-size:50px; line-height:50px; color:#FFF; text-align:center; width:100%; font-family:'buran_ussrregular';}
+
+/*-- Content Wrapper -- */
+#mainHolder{position:absolute; width:100%;height:100%;}
+
+/*-- Browser Not Support -- */
+#notSupportHolder{ width:90%; margin:5% auto; position:relative; color:#FFF; text-align:center; font-size:25px; font-family:'buran_ussrregular'; display:none;}
+.notSupport{margin-top:200px;}
+
+/*-- Mobile Rotate Instruction -- */
+#rotateHolder{position:absolute;width:100%;height:100%;background-color:#0A1529;z-index:1000; display:none;}
+.mobileRotate{width:200px;height:auto;position:absolute;text-align:center;}
+.rotateDesc{color:#fff; font-size:15px; line-height:15px; font-family:'buran_ussrregular';}
+
+/*-- Canvas Wrapper -- */
+#canvasHolder{ display:none; width:100%; max-width:1024px; height:100%; margin:auto; position:relative;}
+#gameCanvas, #box2dCanvas{ position:absolute;}
+
+/*-- Form Wrapper -- */
+#editWrapper{ display:none;}
+#floatForm{ position:fixed; left:0; top:0; z-index:100; background:#39C; padding:20px; color:#FFF; width:250px;-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */}
+#floatForm input{ width:100%;}
+#floatForm input.half{ width:48%;}
+#floatForm textarea{ float:left; width:100%;}
+#floatForm select, #floatForm option{ width:100%;}
+
+#floatPlayer{ position:fixed; background:#69C; height:100%; width:230px; right:0; top:0; z-index:101; text-align:center;}
+.editPlayerWrapper{ overflow:auto; width:200px; margin-left:5%; height:90%; position:relative; border:#000 2px solid;}
+#floatPlayer .playerBg, #floatPlayer .playerBar, #floatPlayer .playerPosition, #floatPlayer .playerIndicator, #floatPlayer .playerNotes{width:10px; position:absolute;}
+#floatPlayer .playerBg{ background:#333; width:100%;}
+#floatPlayer .playerBar{ background:#999; }
+#floatPlayer .playerPosition{ background:#FFF;}
+#floatPlayer .playerIndicator{ background:#FFBF00; width:100%; height:3px; z-index:100; cursor:pointer;}
+#floatPlayer .playerNotes{ width:100%;}
+#floatPlayer .notesWrapper{ position:absolute; width:100%; height:4px; cursor:pointer;}
+#floatPlayer .note{ position:absolute; width:20px; height:20px; margin:-10px 0 0 -10px; border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px; cursor:pointer;}
+.selected, .selected .note{ background:#FFF !important;}
+
+#floatPlayer #dragArea{ position:absolute; left:5%; height:20px; width:90%; top:40px;}
+#floatPlayer .dragStart, #floatPlayer .dragEnd{ left:5%; top:60px; width:3px; height:20px; background:#F00; position:absolute;}
+#floatPlayer .dragEnd{background:#C00; left:10%;}
+
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+.ir {
+background-color: transparent;
+border: 0;
+overflow: hidden;
+/* IE 6/7 fallback */
+*text-indent: -9999px;
+}
+
+.ir:before {
+content: "";
+display: block;
+width: 0;
+height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+display: none !important;
+visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+border: 0;
+clip: rect(0 0 0 0);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
+clip: auto;
+height: auto;
+margin: 0;
+overflow: visible;
+position: static;
+width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+.invisible {
+visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,.clearfix:after{
+content: " "; /* 1 */
+display: table; /* 2 */
+}
+
+.clearfix:after{
+clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix{
+*zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print{
+* {
+background:transparent!important;
+color:#000!important;
+box-shadow:none!important;
+text-shadow:none!important;
+}
+
+a,a:visited {
+text-decoration:underline;
+}
+
+a[href]:after {
+content:" (" attr(href) ")";
+}
+
+abbr[title]:after {
+content:" (" attr(title) ")";
+}
+
+.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after {
+content:"";
+}
+
+pre,blockquote {
+border:1px solid #999;
+page-break-inside:avoid;
+}
+
+thead {
+display:table-header-group;
+}
+
+tr,img {
+page-break-inside:avoid;
+}
+
+img {
+max-width:100%!important;
+}
+
+@page {
+margin:.5cm;
+}
+
+p,h2,h3 {
+orphans:3;
+widows:3;
+}
+
+h2,h3 {
+page-break-after:avoid;
+}
+}

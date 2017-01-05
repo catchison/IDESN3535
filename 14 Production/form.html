@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SoundGroove Rush</title>
+
+
+<script language="JavaScript">
+
+    var attempt = 3;
+    attempt --;
+    document.getElementById("username").disabled = true;
+    document.getElementById("password").disabled = true;
+    document.getElementById("submit").disabled = true;
+    return false;
+    }
+    }
+    }
+
+
+</script>
+
+
+<style type="text/css">
+
+body,td,th {
+	font-size: 12px;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: #000;
+	text-align: center;
+}
+
+th {
+	text-align: center;
+}
+
+.divTable{
+	display: table;
+	width: 100%;
+	position:relative;
+	left: 95px;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #000;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	display: table-cell;
+	padding: 0px;
+}
+.divTableHeading {
+	background-color: #000;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #000;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+#logoposition {
+    position:relative;
+    left: 100px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#footerposition {
+	position:relative;
+	left: 130px; 
+    width: 200px;
+}
+
+a:visited {
+    color: white;
+}
+
+
+h2{
+    background-color: #FEFFED;
+    padding: 30px 35px;
+    margin: -10px -50px;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+}
+hr{
+    margin: 10px -50px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+div.container{
+    width: 480px;
+    height: 610px;
+    margin:35px auto;
+}
+div.main{
+    width: 200px;
+    padding: 10px 0px 0px;
+}
+input[type=text],input[type=password]{
+    left: 100px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 220px;
+    font-size: 16px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+label{
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+center{
+    font-size:32px;
+}
+.note{
+    color:red;
+}
+.valid{
+    color:green;
+}
+.back{
+    text-decoration: none;
+    border: 1px solid rgb(0, 143, 255);
+    background-color: rgb(0, 214, 255);
+    padding: 3px 20px;
+    border-radius: 2px;
+    color: black;
+}
+input[type=button]{
+    position:relative;
+    font-size: 16px;
+    background: #000000;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding:26px;
+    width: 220px;
+    height: 25px;
+}
+
+input[type=button]:hover{
+    border: 2px solid #FF0000;
+}
+
+input[type=button]:active{
+    border: 2px solid #FF0000;
+    background-color: #FF0000;
+    font-size: 16px;
+    color: #FF0000;
+    animation-name: example;
+}
+
+#navbackbutton {
+    position:relative;
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+    padding: 20px;
+    width: 175px;
+    height: 15px;
+    font-size: 16px;
+}
+
+#navbackbutton:hover {
+    border: 2px solid #FF0000;
+}
+
+#navbackbutton:active {
+    border: 2px solid #FF0000;
+    background-color: #FF0000;
+    font-size: 16px;
+    color: #FF0000;
+    animation-name: example;
+}
+
+</style>
+</head>
+
+<body>
+<div id="logoposition"><img src="images/sgrlogo-512x512.png" width="235" height="235"></div>
+
+<div id="logoposition">
+        <form id="form_id" method="post" name="myform">
+            <input type="text" name="username" id="username"/>
+            <input type="password" name="password" id="password"/>
+            <input type="button" value="login" id="submit" onclick="validate()"/>
+            <p id="navbackbutton">back</p>
+        </form>
+</div>
+
+<p id="footerposition">
+<div class="divTable" style="width: 275px;" >
+<div class="divTableBody">
+<div class="divTableRow">
+<div class="divTableCell"><img src="images/hearthis-icon.png" width="50" height="50"></div>
+<div class="divTableCell"><img src="images/fb-icon.png" width="50" height="50"></div>
+<div class="divTableCell"><img src="images/twitter-icon.png" width="50" height="50"></div>
+<div class="divTableCell"><img src="images/beatport-icon.png" width="50" height="50"></div>
+<div class="divTableCell"><img src="images/googleplus-icon.png" width="50" height="50"></div>
+</div>
+</div>
+</div>
+
+<p>(C) 2016 SoundGroove Records</p>
+</body>
+
+</html>
